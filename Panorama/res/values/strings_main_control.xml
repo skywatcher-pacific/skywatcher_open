@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button_high_speed">High Speed</string>
+	<string name="button_set_home">Set Home</string>
+	<string name="button_low_speed">Low Speed</string>
+	<string name="button_shot">Shot</string>
+	<string name="button_shot_wait">Wait...</string>
+	<string name="button_shot_second">s</string>
+	<string name="button_goto_home">Goto Home</string>
+</resources>

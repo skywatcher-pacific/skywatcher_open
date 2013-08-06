@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="button_next">Next</string>
+	<string name="target_left_top">Please target the object to left top corner
+	</string>
+	<string name="target_right_bottom">Please target the object to right bottom corner
+	</string>
+	<string name="move_left_bound">Please move to the left bound of capture area
+	</string>
+	<string name="move_right_bound">Please move to the right bound of capture area
+	</string>
+	<string name="move_upper_bound">Please move to the upper bound of capture area
+	</string>
+	<string name="move_lower_bound">Please move to the lower bound of capture area
+	</string>
+</resources>

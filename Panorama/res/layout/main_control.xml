@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical" android:id="@+id/main_control_LinearLayout">
+
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/view_status"
+		android:text="@string/title_not_connected" android:textSize="16px"></TextView>
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<TableRow android:weightSum="3" >
+			<Button android:layout_width="90px" android:layout_height="90px"
+				android:id="@+id/button_high_speed" android:text="@string/button_high_speed" 
+				android:layout_weight="1"/>
+			<ImageButton android:layout_height="90px"
+				android:src="@drawable/ic_button_arrow_up" android:layout_width="90px"
+				android:id="@+id/button_up"
+				android:layout_weight="1"></ImageButton>
+			<Button android:layout_width="90px" android:layout_height="90px"
+				android:id="@+id/button_low_speed" android:text="@string/button_low_speed"
+				android:layout_weight="1"></Button>
+		</TableRow>
+		<TableRow android:weightSum="3">
+			<ImageButton android:layout_height="90px"
+				android:src="@drawable/ic_button_arrow_left" android:layout_width="90px"
+				android:id="@+id/button_left" android:layout_weight="1"></ImageButton>
+			<Button android:layout_width="90px" android:id="@+id/button_shot"
+				android:layout_height="90px" android:text="@string/button_shot" android:layout_weight="1"></Button>
+			<ImageButton android:layout_height="90px"
+				android:src="@drawable/ic_button_arrow_right" android:layout_width="90px"
+				android:id="@+id/button_right" android:layout_weight="1"></ImageButton>
+		</TableRow>
+		<TableRow android:weightSum="3">
+			<Button android:id="@+id/button_set_home"
+				android:layout_width="90px" android:layout_height="90px"
+				android:text="@string/button_set_home" android:layout_weight="1"></Button>
+			<ImageButton android:layout_height="90px"
+				android:src="@drawable/ic_button_arrow_down" android:layout_width="90px"
+				android:id="@+id/button_down" android:layout_weight="1"></ImageButton>
+			<Button android:layout_height="90px" android:layout_width="90px"
+				android:text="@string/button_goto_home" android:layout_weight="1" android:id="@+id/button_home"/>
+		</TableRow>
+	</TableLayout>
+
+</LinearLayout>

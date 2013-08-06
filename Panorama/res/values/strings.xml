@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">PanoramaApp</string>
+
+	<string name="tab_main_control">Main Control</string>
+	<string name="tab_quick_select">Quick Select</string>
+	<string name="tab_step_by_step">Step by Step</string>
+	<string name="tab_setting">Setting</string>
+	<string name="dialog_title">Reconnect</string>
+</resources>

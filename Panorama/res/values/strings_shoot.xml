@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="label_step_by_step">Step-by-Step</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_log">Log</string>
+	<string name="trigger_delay_left">Trigger Delay Left: </string>
+	<string name="step_delay_left">Step Delay Left: </string>
+	<string name="second"> s</string>
+	<string name="send_to">Send To: (Please input E-mail address)</string>
+</resources>

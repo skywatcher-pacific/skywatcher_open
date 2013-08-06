@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="240px">
+
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView android:layout_height="wrap_content" android:text="@string/scenario_name"
+				android:paddingRight="10dip" android:textStyle="bold"
+				android:gravity="right" android:layout_width="120dip"></TextView>
+			<EditText android:layout_width="150px"
+				android:layout_height="wrap_content" android:id="@+id/edittext_name"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/scenario_min_az"
+				android:gravity="right" android:paddingRight="10dip"
+				android:textStyle="bold"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:maxLength="4" android:inputType="numberSigned"
+				android:layout_width="wrap_content" android:hint="-180 ~ 180"
+				android:id="@+id/edittext_min_az"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/scenario_max_az"
+				android:gravity="right" android:paddingRight="10dip"
+				android:textStyle="bold"></TextView>
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:maxLength="4"
+				android:inputType="numberSigned" android:hint="-180 ~ 180"
+				android:id="@+id/edittext_max_az"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/scenario_min_alt"
+				android:gravity="right" android:paddingRight="10dip"
+				android:textStyle="bold"></TextView>
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:maxLength="3"
+				android:inputType="numberSigned" android:hint="-50 ~ 90"
+				android:id="@+id/edittext_min_alt"></EditText>
+		</TableRow>
+		<TableRow android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/scenario_max_alt"
+				android:gravity="right" android:paddingRight="10dip"
+				android:textStyle="bold"></TextView>
+			<EditText android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:maxLength="3"
+				android:inputType="numberSigned" android:hint="-50 ~ 90"
+				android:id="@+id/edittext_max_alt"></EditText>
+		</TableRow>
+
+	</TableLayout>
+
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_gravity="bottom"
+		android:background="#797979">
+		<Button android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/button_back"
+			android:layout_weight="1" android:id="@+id/button_back"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/button_save"
+			android:layout_weight="1" android:id="@+id/button_save"></Button>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/button_preview"
+			android:layout_weight="1" android:id="@+id/button_preview"></Button>
+	</LinearLayout>
+
+</FrameLayout>

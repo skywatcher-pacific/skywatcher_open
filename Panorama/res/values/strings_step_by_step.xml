@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="step_by_step_list">
+		<item>Fov Step by Step</item>
+		<item>Panorama Step by Step</item>
+	</string-array>
+</resources>

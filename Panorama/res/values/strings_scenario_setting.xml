@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="scenario_name">Name</string>
+	<string name="scenario_min_az">Min Az</string>
+	<string name="scenario_max_az">Max Az</string>
+	<string name="scenario_min_alt">Min Alt</string>
+	<string name="scenario_max_alt">Max Alt</string>
+	<string name="button_back">Back</string>
+	<string name="button_save">Save</string>
+	<string name="button_preview">Preview</string>
+</resources>

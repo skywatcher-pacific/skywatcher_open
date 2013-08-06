@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--
+		Copyright (C) 2009 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+	-->
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:id="@+id/message_tab"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				<ListView android:id="@+id/in" android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:stackFromBottom="true"
+					android:transcriptMode="alwaysScroll" android:layout_weight="1" />
+				<LinearLayout android:orientation="horizontal"
+					android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<EditText android:id="@+id/edit_text_out"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_weight="1" android:layout_gravity="bottom" />
+					<Button android:id="@+id/button_send" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" android:text="@string/send" />
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:id="@+id/control_tab"
+				android:orientation="vertical" android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				<TextView android:id="@+id/textview_pos"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="18sp" android:padding="5dp" android:text="Test" />
+				<Button android:id="@+id/button_update" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="Update" />
+				<Button android:id="@+id/button_up" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="Up" />
+				<Button android:id="@+id/button_down" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="Down" />
+				<Button android:id="@+id/button_left" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="Left" />
+				<Button android:id="@+id/button_right" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="Right" />
+				<Button android:id="@+id/button_shot" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:text="ShotOff" />
+			</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

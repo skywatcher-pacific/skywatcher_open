@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="empty">目前無任何劇本。</string>
+	<string name="button_add">Add</string>
+	<string name="button_edit">Edit</string>
+	<string name="button_done">Done</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/connect">
+		<Preference android:summary="@string/summery_connect"
+			android:title="@string/connectPref" android:key="@string/connectPref"></Preference>
+		<EditTextPreference android:title="@string/setting_az"
+			android:key="@string/setting_az" android:maxLength="3"
+			android:inputType="number"></EditTextPreference>
+		<EditTextPreference android:title="@string/setting_alt"
+			android:key="@string/setting_alt" android:maxLength="3"
+			android:inputType="number"></EditTextPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/setting_title">
+		<EditTextPreference android:title="@string/setting_fov_x"
+			android:key="@string/key_fov_x" android:maxLength="3"
+			android:inputType="number"></EditTextPreference>
+		<EditTextPreference android:title="@string/setting_fov_y"
+			android:key="@string/key_fov_y" android:maxLength="3"
+			android:inputType="number"></EditTextPreference>
+		<EditTextPreference android:title="@string/setting_overlap"
+			android:key="@string/key_overlap" android:inputType="number"
+			android:maxLength="2"></EditTextPreference>
+		<EditTextPreference android:title="@string/setting_step_delay"
+			android:key="@string/key_step_delay" android:inputType="number"
+			android:maxLength="2"></EditTextPreference>
+		<EditTextPreference android:title="@string/setting_trigger_delay"
+			android:key="@string/key_trigger_delay" android:inputType="number"
+			android:maxLength="2"></EditTextPreference>
+		<CheckBoxPreference android:key="@string/key_portrait"
+			android:title="@string/setting_portrait"></CheckBoxPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

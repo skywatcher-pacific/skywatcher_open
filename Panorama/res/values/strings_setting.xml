@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="setting_title">Setting</string>
+	<string name="setting_fov_x">FovX (°)</string>
+	<string name="setting_fov_y">FovY (°)</string>
+	<string name="setting_overlap">Overlap (%)</string>
+	<string name="setting_step_delay">Step Delay (s)</string>
+	<string name="setting_trigger_delay">Trigger Delay (s)</string>
+	<string name="setting_portrait">Portrait</string>
+	<string name="key_fov_x">FovX</string>
+	<string name="key_fov_y">FovY</string>
+	<string name="key_overlap">Overlap</string>
+	<string name="key_step_delay">StepDelay</string>
+	<string name="key_trigger_delay">TriggerDelay</string>
+	<string name="key_portrait">Portrait</string>
+	<string name="connectPref">Connect</string>
+	<string name="summery_connect">Connect to Camera</string>
+	<string name="error_fov">Please enter a number in 10-100.</string>
+	<string name="error_overlap">Please enter a number in 20-50.</string>
+	<string name="error_delay">Please enter a number in 1-10.</string>
+	<string name="setting_az">Current Az (°)</string>
+	<string name="setting_alt">Current Alt (°)</string>
+	<string name="error_not_connected">Mount not connected</string>
+	<string name="error_set_position">Please enter a number in -180-180.</string>
+</resources>
